@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f6fa;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1 {
+	color: #2f3640;
+}
+
+.menu {
+	margin-top: 30px;
+}
+
+.menu a {
+	display: inline-block;
+	margin: 15px;
+	padding: 12px 24px;
+	font-size: 16px;
+	color: white;
+	background-color: #44bd32;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+}
+
+.menu a:hover {
+	background-color: #4cd137;
+}
+
+/* 기존 스타일 유지 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #2f3640;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #44bd32;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.menu a:hover {
+    background-color: #4cd137;
+}
+
+/* 폼 스타일 */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form-container label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="date"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #44bd32;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #4cd137;
+}
+
+
+/* 기존 스타일 유지 */
+
+/* 테이블 스타일 */
+.expense-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.expense-table th, .expense-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.expense-table th {
+    background-color: #44bd32;
+    color: white;
+}
+
+.expense-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
