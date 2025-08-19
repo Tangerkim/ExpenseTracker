@@ -14,7 +14,7 @@
 
     <div class="menu">
         <a href="addExpense.jsp">지출 등록</a>
-        <a href="ExpenseListServlet">지출 내역 조회</a>
+        <a href="ListExpenseServlet">지출 내역 조회</a>
     </div>
 </body>
 </html>

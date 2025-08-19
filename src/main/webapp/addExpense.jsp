@@ -11,16 +11,19 @@
     <h1>💸 지출 등록</h1>
     <form action="AddExpenseServlet" method="post" class="form-container">
         <label>항목명:</label>
-        <input type="text" name="item" required><br><br>
+        <input type="text" name="title" required><br><br>
 
         <label>금액:</label>
         <input type="number" name="amount" required><br><br>
 
-        <label>날짜:</label>
-        <input type="date" name="spent_date" required><br><br>
-
         <label>카테고리:</label>
         <input type="text" name="category"><br><br>
+
+        <label>지출 날짜:</label>
+        <input type="date" name="expense_date"><br><br>
+
+        <label>메모:</label>
+        <textarea name="memo" rows="3" cols="30"></textarea><br><br>
 
         <input type="submit" value="등록">
     </form>

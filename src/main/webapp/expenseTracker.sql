@@ -24,5 +24,5 @@ VALUES (expense_seq.NEXTVAL, '커피', 4500, '간식', SYSDATE, '스타벅스 �
 COMMIT;
 
 
-SELECT * FROM expense ORDER BY expense_date DESC;
+SELECT * FROM expense ORDER BY id DESC;
 
