@@ -18,7 +18,6 @@
 			<table class="expense-table">
 				<thead>
 					<tr>
-						<th>ID</th>
 						<th>항목명</th>
 						<th>금액</th>
 						<th>날짜</th>
@@ -29,7 +28,6 @@
 				<tbody>
 					<c:forEach var="item" items="${expenses}">
 						<tr>
-							<td>${item.id}</td>
 							<td>${item.title}</td>
 							<td>${item.amount}</td>
 							<td>${item.expenseDate}</td>

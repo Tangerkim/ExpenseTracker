@@ -40,7 +40,7 @@ public class ExpenseDAO {
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 
-		String sql = "SELECT * FROM expense ORDER BY id DESC";
+		String sql = "SELECT * FROM expense ORDER BY expense_date DESC";
 
 		try {
 			conn = Util.getConnection();
