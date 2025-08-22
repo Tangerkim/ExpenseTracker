@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>지출 등록</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
     <h1>💸 지출 등록</h1>

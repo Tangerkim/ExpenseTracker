@@ -21,8 +21,8 @@ VALUES (expense_seq.NEXTVAL, '지하철 교통비', 1350, '교통', SYSDATE, '�
 INSERT INTO expense (id, title, amount, category, expense_date, memo)
 VALUES (expense_seq.NEXTVAL, '커피', 4500, '간식', SYSDATE, '스타벅스 아메리카노');
 
-COMMIT;
 
 
-SELECT * FROM expense ORDER BY id DESC;
+
+SELECT * FROM expense ORDER BY expense_date DESC;
 

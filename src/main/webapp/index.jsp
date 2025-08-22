@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>지출관리 프로그램</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
 
@@ -20,7 +21,7 @@
     </div>
 
     <footer>
-        <p style="font-weight: 500;">Copyright ⓒ 2025 Tanger All rights reserved.</p>
+        <p style="font-weight: 500;">Copyright ⓒ 2025 Tangerkim All rights reserved.</p>
     </footer>
 
 </body>
